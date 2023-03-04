@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header_main{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Mulish', sans-serif;
+    height: 70px;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.head_img{
+    width: 40px;
+    height: 40px;
+}
+
+.head_middle{
+    display: flex;
+    flex-flow: wrap;
+    gap: 20px;
+}
+
+.head_middle a{
+    text-decoration: none;
+    color: white;
+}
+
+.head_right{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.main_1{
+   background-image: url(./pizza1_3.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.heading_1{
+    color: white;
+    font-size: 90px;
+    width: 700px;
+    height: 200px;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Quattrocento', serif;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+.line{
+    width: 500px;
+    height: 15px;
+    background-color: #F24C4C;
+    margin-left: 40px;
+}
+.content{
+    font-size: 25px;
+    width: 500px;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.About_us{
+    background-color: black;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 50px 0;
+}
+.About_us .Top{
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Quattrocento', serif;
+    border-bottom: 5px solid  #B62828;
+    width: 250px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.About_us .Bottom{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 75px;
+    margin-top: 70px;
+}
+.About_us .Bottom .content{
+    border-top: 2px solid #F24C4C;
+    color: white;
+    font-size: 25px;
+}
+.About_us .Bottom .pic .image{
+    width: 500px;
+    height: 400px;
+}
+
+.menu{
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.menu .Top{
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Quattrocento', serif;
+    border-bottom: 5px solid #B62828;
+    width: 250px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.menu .content{
+    width: 1100px;
+}
+
+.menu .items{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    margin-top: 60px;
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+.menu .items .item{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+}
+
+.menu .items .item div .image{
+    width: 230px;
+    height: 150px;
+}
+
+.menu .items .item .info{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+    width: 250px;
+}
+
+.menu .items .item .info .heading{
+    font-size: 25px;
+    color: #F2C94C;
+    font-family: 'Mulish',sans-serif;
+}
+
+.menu .items .item .info div{
+    font-size: 17px;
+    font-family: 'Mulish',sans-serif;
+}
+
+.find_us .Top{
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Quattrocento', serif;
+    border-bottom: 5px solid #B62828;
+    width: 250px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.find_us{
+    padding: 50px;
+    background-color: black;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 70px;
+}
+
+.find_us .Bottom{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+}
+.find_us .Bottom .left{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+}
+
+.find_us .Bottom .left .left-bottom .location div{
+    font-size: 15px;
+}
+.find_us .Bottom .left .left-bottom .location div a{
+    text-decoration: none;
+    color: white;
+}
+
+.find_us .Bottom .left .left-bottom .location{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 25px;
+    gap: 15px;
+}
+.find_us .Bottom div .image{
+    width: 600px;
+    height: 400px;
+}
+
+.find_us .Bottom .left .left-bottom .contact{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 30px;
+    gap: 30px;
+}
+footer{
+    background-color: black;
+    padding: 60px;
+}
+
+footer .right{
+    color: white;
+    width: 400px;
+}
+footer .left{
+    color: white;
+    width: 400px;
+}
+footer .outer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div .right .mail{
+    display: flex;
+    font-size: 15px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Mulish',sans-serif;
+}
+
+footer div .right .contact{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    font-family: 'Mulish',sans-serif;
+}
+
+footer div .right .mail div a{
+    text-decoration: none;
+    color: white;
+}
